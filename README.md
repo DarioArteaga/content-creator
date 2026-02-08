@@ -1,6 +1,6 @@
 # Content Creator — PoC CrewAI
 
-PoC de agencia de contenido multiagente con **CrewAI**, UI en **Chainlit** y trazabilidad opcional (**OpenLIT** / CrewAI Tracing).
+PoC de agencia de contenido multiagente con **CrewAI**, UI en **Chainlit** y trazabilidad opcional (**OpenLIT** / CrewAI Tracing). Incluye `Content-Creator.json`, el flujo original en n8n, como referencia del diseño.
 
 ## Flujo
 
@@ -98,7 +98,8 @@ No hay carpetas `backend/` y `frontend/` separadas: Chainlit sirve la UI y la l�
 
 ```
 content-creator/
-├── app.py                 # Entrada Chainlit (presentación + orquestación)
+├── Content-Creator.json    # Flujo original n8n (referencia)
+├── app.py                  # Entrada Chainlit (presentación + orquestación)
 ├── content_creator/
 │   ├── __init__.py
 │   └── crew.py             # Agentes, tareas y crew CrewAI (lógica)
