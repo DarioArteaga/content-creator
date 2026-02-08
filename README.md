@@ -20,7 +20,7 @@ El orden se impone con **proceso secuencial** y **contexto** entre tareas.
 Con **uv** (entorno ya creado):
 
 ```powershell
-cd d:\Dario\Documents\Proyectos\content-creator
+cd content-creator   # o la ruta donde hayas clonado el repo
 uv sync
 ```
 
