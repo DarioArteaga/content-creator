@@ -1,0 +1,45 @@
+# Entorno y variables
+.venv/
+venv/
+.env
+.env.local
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# uv
+.uv/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs y caché
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Chainlit (estado local si lo genera)
+.chainlit/
+
+# Salidas opcionales del crew
+output/
